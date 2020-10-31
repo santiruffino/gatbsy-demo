@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Fresh`,
+    title: `My First Blog`,
     description: `GatsbyJS starter blog with the Fresh theme.`,
     author: `@mishal23`,
     siteUrl: `https://gatsby-starter-fresh.netlify.app`,
@@ -22,7 +22,7 @@ module.exports = {
       "contact form"
     ],
     social: {
-      twitter: ``,
+      twitter: `santiruffinodev`,
       facebook: ``,
       github: ``,
       email: ``,

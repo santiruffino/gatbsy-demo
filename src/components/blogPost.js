@@ -32,8 +32,8 @@ const BlogPost = ({ path, data }) => {
       date={markdownRemark.frontmatter.date} >
       <div dangerouslySetInnerHTML={{ __html: markdownRemark.html }} />
 
-      <CommentCount config={disqusConfig} placeholder={'...'} />
-      <Disqus config={disqusConfig} />
+      {/* <CommentCount config={disqusConfig} placeholder={'...'} />
+      <Disqus config={disqusConfig} /> */}
     </Post>
     </>
   )
